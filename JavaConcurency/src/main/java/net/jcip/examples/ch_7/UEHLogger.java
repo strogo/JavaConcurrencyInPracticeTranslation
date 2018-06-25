@@ -1,4 +1,4 @@
-package net.jcip.examples;
+package net.jcip.examples.ch_7;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

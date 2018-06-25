@@ -1,6 +1,7 @@
-package net.jcip.examples;
+package net.jcip.examples.ch_7;
 
 import net.jcip.annotations.GuardedBy;
+import net.jcip.examples.ch_7.TrackingExecutor;
 
 import java.net.URL;
 import java.util.HashSet;
