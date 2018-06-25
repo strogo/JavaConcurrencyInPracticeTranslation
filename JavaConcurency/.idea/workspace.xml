@@ -14,21 +14,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SequenceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SequenceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_1/SequenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnsafeSequenceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_1/UnsafeSequenceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="493">
+              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -61,6 +51,7 @@
         <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_4/Widget.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_1/UnsafeSequenceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/Memoizer1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_2/NonreentrantDeadlock.java" />
       </list>
     </option>
   </component>
@@ -430,11 +421,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="net.jcip.examples.ch_7" />
-      <recent name="net.jcip.examples" />
-      <recent name="net.jcip.examples.ch_6" />
-      <recent name="net.jcip.examples.ch_5" />
-      <recent name="net.jcip.examples.ch_4" />
+      <recent name="net.jcip.examples.ch_2" />
+      <recent name="net.jcip.examples.ch_16" />
+      <recent name="net.jcip.examples.ch_15" />
+      <recent name="net.jcip.examples.ch_14" />
+      <recent name="net.jcip.examples.ch_13" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1019,7 +1010,7 @@
       <workItem from="1529656934324" duration="157000" />
       <workItem from="1529658791369" duration="739000" />
       <workItem from="1529908022472" duration="2167000" />
-      <workItem from="1529916046269" duration="360000" />
+      <workItem from="1529916046269" duration="2478000" />
     </task>
     <servers />
   </component>
@@ -1056,7 +1047,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10213000" />
+    <option name="totallyTimeSpent" value="12331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1225,7 +1216,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/AttributeStore.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_11/AttributeStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
@@ -1233,7 +1224,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_1/UnsafeSequence.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/AtomicPseudoRandom.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_15/AtomicPseudoRandom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -1261,7 +1252,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/TestBoundedBuffer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_12/TestBoundedBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-34">
           <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
@@ -1304,14 +1295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/NonreentrantDeadlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_4/PrivateLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1330,14 +1313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_1/SequenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1369,10 +1344,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_11/WorkerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_16/UnsafeLazyInitialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_2/LoggingWidget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_1/UnsafeSequenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="391">
+          <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_1/SequenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding />
         </state>
       </provider>
