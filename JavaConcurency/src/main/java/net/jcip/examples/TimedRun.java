@@ -2,7 +2,7 @@ package net.jcip.examples;
 
 import java.util.concurrent.*;
 
-import static net.jcip.examples.LaunderThrowable.launderThrowable;
+import static net.jcip.examples.ch_5.LaunderThrowable.launderThrowable;
 
 /**
  * TimedRun

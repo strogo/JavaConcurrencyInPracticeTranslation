@@ -1,14 +1,10 @@
-package net.jcip.examples;
+package net.jcip.examples.ch_5;
 
 import net.jcip.annotations.GuardedBy;
 
 import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Map;
-
-interface Computable<A, V> {
-	V compute(A arg) throws InterruptedException;
-}
 
 /**
  * Memoizer1

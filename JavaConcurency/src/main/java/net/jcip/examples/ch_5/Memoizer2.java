@@ -1,4 +1,4 @@
-package net.jcip.examples;
+package net.jcip.examples.ch_5;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

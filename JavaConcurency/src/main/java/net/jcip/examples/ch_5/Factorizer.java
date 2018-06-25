@@ -1,6 +1,8 @@
-package net.jcip.examples;
+package net.jcip.examples.ch_5;
 
 import net.jcip.annotations.ThreadSafe;
+import net.jcip.examples.ch_5.Computable;
+import net.jcip.examples.ch_5.Memoizer;
 
 import javax.servlet.*;
 import java.math.BigInteger;

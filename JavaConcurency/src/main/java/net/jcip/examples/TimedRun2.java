@@ -4,7 +4,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 import static java.util.concurrent.Executors.newScheduledThreadPool;
-import static net.jcip.examples.LaunderThrowable.launderThrowable;
+import static net.jcip.examples.ch_5.LaunderThrowable.launderThrowable;
 
 /**
  * TimedRun2
