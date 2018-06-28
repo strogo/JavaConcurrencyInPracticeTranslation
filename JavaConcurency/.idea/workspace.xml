@@ -66,11 +66,10 @@
       <file leaf-file-name="UnsafeCountingFactorizerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_2/UnsafeCountingFactorizerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="481">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1530183385065" expanded="true" signature="830:981" ph="..." />
               </folding>
             </state>
           </provider>
@@ -105,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/Memoizer1.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_2/NonreentrantDeadlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_2/UnsafeCountingFactorizer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_2/FactorizerWorkerThread.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_2/UnsafeCountingFactorizerTest.java" />
       </list>
     </option>
@@ -1133,44 +1133,44 @@
       <workItem from="1529658791369" duration="739000" />
       <workItem from="1529908022472" duration="2167000" />
       <workItem from="1529916046269" duration="2578000" />
-      <workItem from="1530179298196" duration="2509000" />
+      <workItem from="1530179298196" duration="4029000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 15h 55m 46s.xml">
+    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 16h 40m 34s.xml">
       <configuration name="UnsafeCountingFactorizerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 15h 56m 01s.xml">
+    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 16h 40m 39s.xml">
       <configuration name="UnsafeCountingFactorizerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 15h 56m 03s.xml">
+    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 16h 41m 50s.xml">
       <configuration name="UnsafeCountingFactorizerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 15h 56m 07s.xml">
+    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 16h 41m 57s.xml">
       <configuration name="UnsafeCountingFactorizerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 15h 56m 14s.xml">
+    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 16h 43m 04s.xml">
       <configuration name="UnsafeCountingFactorizerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 15h 56m 17s.xml">
+    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 16h 43m 11s.xml">
       <configuration name="UnsafeCountingFactorizerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 15h 56m 20s.xml">
+    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 16h 43m 15s.xml">
       <configuration name="UnsafeCountingFactorizerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 15h 56m 28s.xml">
+    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 16h 43m 23s.xml">
       <configuration name="UnsafeCountingFactorizerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 15h 56m 32s.xml">
+    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 16h 43m 34s.xml">
       <configuration name="UnsafeCountingFactorizerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 15h 56m 35s.xml">
+    <history-entry file="UnsafeCountingFactorizerTest - 2018.06.28 at 16h 43m 39s.xml">
       <configuration name="UnsafeCountingFactorizerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14940000" />
+    <option name="totallyTimeSpent" value="16460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1185,7 +1185,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1214,7 +1214,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1558,13 +1560,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_2/FactorizerWorkerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_2/UnsafeCountingFactorizerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="481">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1530183385065" expanded="true" signature="830:981" ph="..." />
           </folding>
         </state>
       </provider>
