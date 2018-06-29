@@ -15,12 +15,22 @@ public class LazyInitRace {
 	private ExpensiveObject instance = null;
 
 	public ExpensiveObject getInstance() {
-		if (instance == null)
+		if (instance == null) {
+			threadDelay();
 			instance = new ExpensiveObject();
+		}
 		return instance;
 	}
-}
 
-class ExpensiveObject {
+	/** Небольшая задержка, чтобы каждый поток успел создать экземпляр.
+	 * На моей машинке хватает 1 миллисекунды, для включения эффекта "рандомного" прохождения теста.
+	 */
+	private void threadDelay() {
+		try {
+			Thread.sleep(1);
+		}
+		catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 }
-

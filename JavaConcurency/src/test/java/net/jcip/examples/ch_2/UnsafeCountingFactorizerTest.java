@@ -13,13 +13,13 @@ import static org.junit.Assert.assertEquals;
 public class UnsafeCountingFactorizerTest {
 
 	@Test
-	public void TestFacotorize() {
+	public void testFacotorize() {
 		final int MAX_ITERATIONS = 1000000;
 
-		// Эмуляция создания сервлета с состоянием
+		// Эмуляция создания "сервлета с состоянием"
 		UnsafeCountingFactorizer factorizer = new UnsafeCountingFactorizer();
 
-		// Эмуляция обращение к сервлету с состоянием из 20 потоков
+		// Эмуляция обращения к "сервлету с состоянием" из 20 потоков
 		ExecutorService executor = Executors.newFixedThreadPool(20);
 		for (int i = 0; i < MAX_ITERATIONS; i++) {
 			Runnable worker = new FactorizerWorkerThread(factorizer);
@@ -31,5 +31,19 @@ public class UnsafeCountingFactorizerTest {
 
 		// На моей машине тест гарантированно падает начиная с миллиона итераций
 		assertEquals(MAX_ITERATIONS, factorizer.getCount());
+	}
+
+	 /** Поток запуска факторизатора */
+	private class FactorizerWorkerThread implements Runnable {
+		UnsafeCountingFactorizer factorizer;
+
+		public FactorizerWorkerThread(UnsafeCountingFactorizer factorizer) {
+			this.factorizer = factorizer;
+		}
+
+		@Override
+		public void run() {
+			this.factorizer.service(null, null);
+		}
 	}
 }
