@@ -21,6 +21,10 @@ public class UnsafeCachingFactorizer extends GenericServlet implements Servlet {
 	private final AtomicReference<BigInteger[]> lastFactors
 			= new AtomicReference<BigInteger[]>();
 
+	// Число, переданное в сервлет для факторизации
+	private final AtomicReference<BigInteger> fromReqNumber
+			= new AtomicReference<BigInteger>();
+
 	public void service(ServletRequest req, ServletResponse resp) {
 		BigInteger i = extractFromRequest(req);
 		if (i.equals(lastNumber.get()))
@@ -37,12 +41,21 @@ public class UnsafeCachingFactorizer extends GenericServlet implements Servlet {
 	}
 
 	BigInteger extractFromRequest(ServletRequest req) {
-		return new BigInteger("7");
+		return fromReqNumber.get();
 	}
 
 	BigInteger[] factor(BigInteger i) {
 		// Doesn't really factor
 		return new BigInteger[]{i};
+	}
+
+	/** Эмуляция передачи значения на факторизацию в сервлет */
+	public void setFromReqNumber(BigInteger fromReqNumber) {
+		this.fromReqNumber.set(fromReqNumber);
+	}
+
+	public BigInteger[] getLastFactors() {
+		return lastFactors.get();
 	}
 }
 
