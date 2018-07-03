@@ -3,6 +3,7 @@ package net.jcip.examples.ch_2;
 import net.jcip.annotations.NotThreadSafe;
 
 import javax.servlet.*;
+import java.io.IOException;
 import java.math.BigInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -21,11 +22,7 @@ public class UnsafeCachingFactorizer extends GenericServlet implements Servlet {
 	private final AtomicReference<BigInteger[]> lastFactors
 			= new AtomicReference<BigInteger[]>();
 
-	// Число, переданное в сервлет для факторизации
-	private final AtomicReference<BigInteger> fromReqNumber
-			= new AtomicReference<BigInteger>();
-
-	public void service(ServletRequest req, ServletResponse resp) {
+	public void service(UsrServletRequest req, ServletResponse resp) {
 		BigInteger i = extractFromRequest(req);
 		if (i.equals(lastNumber.get()))
 			encodeIntoResponse(resp, lastFactors.get());
@@ -40,8 +37,8 @@ public class UnsafeCachingFactorizer extends GenericServlet implements Servlet {
 	void encodeIntoResponse(ServletResponse resp, BigInteger[] factors) {
 	}
 
-	BigInteger extractFromRequest(ServletRequest req) {
-		return fromReqNumber.get();
+	BigInteger extractFromRequest(UsrServletRequest req) {
+		return (BigInteger) req.getValue();
 	}
 
 	BigInteger[] factor(BigInteger i) {
@@ -49,13 +46,13 @@ public class UnsafeCachingFactorizer extends GenericServlet implements Servlet {
 		return new BigInteger[]{i};
 	}
 
-	/** Эмуляция передачи значения на факторизацию в сервлет */
-	public void setFromReqNumber(BigInteger fromReqNumber) {
-		this.fromReqNumber.set(fromReqNumber);
-	}
-
 	public BigInteger[] getLastFactors() {
 		return lastFactors.get();
+	}
+
+	@Override
+	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+
 	}
 }
 
