@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_2/FactorizerUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_2/CachedFactorizerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_2/CachedFactorizer.class" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_2/CachedFactorizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_2/CachedFactorizer.java" afterPath="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_2/CachedFactorizer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_2/UnsafeCachingFactorizerTest.java" afterPath="$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_2/UnsafeCachingFactorizerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1199,7 +1193,7 @@
       <workItem from="1530596810499" duration="4210000" />
       <workItem from="1530685726024" duration="120000" />
       <workItem from="1530685906737" duration="43000" />
-      <workItem from="1530852175414" duration="3927000" />
+      <workItem from="1530852175414" duration="4526000" />
     </task>
     <servers />
   </component>
@@ -1236,7 +1230,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34129000" />
+    <option name="totallyTimeSpent" value="34728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
