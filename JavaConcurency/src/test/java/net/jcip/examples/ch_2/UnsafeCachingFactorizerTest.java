@@ -24,13 +24,13 @@ public class UnsafeCachingFactorizerTest {
 			for (int k = 0; k < MAX_ITERATIONS; k++) {
 				// Эмуляция вызова сервлета
 				cachingFactorizer.service(new UsrServletRequest(new BigInteger("2")), null);
-				// Пауза, чтобы другой поток мог внести изменения в кэш
-				sleep();
 				// Запоминаем состояние кэша
 				cache_result_1 = cachingFactorizer.getLastFactors();
+				// Пауза, чтобы другой поток мог внести изменения в кэш, таким образом эмулируем
+				FactorizerUtils.sleep();
 				// Повторный вызов сервлета, с надеждой, что он сможет взять значение из кэша
 				cachingFactorizer.service(new UsrServletRequest(new BigInteger("2")), null);
-				sleep();
+				FactorizerUtils.sleep();
 				cache_result_2 = cachingFactorizer.getLastFactors();
 			}
 		});
@@ -39,10 +39,9 @@ public class UnsafeCachingFactorizerTest {
 		Thread th_2 = new Thread(() -> {
 			for (int k = 0; k < MAX_ITERATIONS; k++) {
 				cachingFactorizer.service(new UsrServletRequest(new BigInteger("4")), null);
-				sleep();
-				cache_result_3 = cachingFactorizer.getLastFactors();
+				FactorizerUtils.sleep();
 				cachingFactorizer.service(new UsrServletRequest(new BigInteger("4")), null);
-				sleep();
+				FactorizerUtils.sleep();
 				cache_result_4 = cachingFactorizer.getLastFactors();
 			}
 		});
@@ -61,13 +60,5 @@ public class UnsafeCachingFactorizerTest {
 		// Проверяем, как закэшировалось. На моей машине,
 		// условие состояние гонки возникает примерно раз в 5-ть запусков.
 		assertEquals(cache_result_1[0], cache_result_2[0]);
-	}
-
-	private void sleep() {
-		try {
-			Thread.sleep(5);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
 	}
 }

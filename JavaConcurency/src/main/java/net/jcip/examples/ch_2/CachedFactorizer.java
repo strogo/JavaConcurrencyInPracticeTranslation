@@ -4,6 +4,7 @@ import net.jcip.annotations.GuardedBy;
 import net.jcip.annotations.ThreadSafe;
 
 import javax.servlet.*;
+import java.io.IOException;
 import java.math.BigInteger;
 
 /**
@@ -32,7 +33,7 @@ public class CachedFactorizer extends GenericServlet implements Servlet {
 		return (double) cacheHits / (double) hits;
 	}
 
-	public void service(ServletRequest req, ServletResponse resp) {
+	public void service(UsrServletRequest req, ServletResponse resp) {
 		BigInteger i = extractFromRequest(req);
 		BigInteger[] factors = null;
 		synchronized (this) {
@@ -55,12 +56,20 @@ public class CachedFactorizer extends GenericServlet implements Servlet {
 	void encodeIntoResponse(ServletResponse resp, BigInteger[] factors) {
 	}
 
-	BigInteger extractFromRequest(ServletRequest req) {
-		return new BigInteger("7");
+	BigInteger extractFromRequest(UsrServletRequest req) {
+		return (BigInteger) req.getValue();
 	}
 
 	BigInteger[] factor(BigInteger i) {
 		// Doesn't really factor
 		return new BigInteger[]{i};
+	}
+
+	public BigInteger[] getLastFactors() {
+		return lastFactors;
+	}
+
+	@Override
+	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 	}
 }
