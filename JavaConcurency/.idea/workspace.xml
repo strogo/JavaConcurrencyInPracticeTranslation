@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" />
-    </list>
+    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +29,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
               <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1014#1015#0" expanded="false" />
+                <element signature="e#1047#1048#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +65,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#631#632#0" expanded="false" />
+                <element signature="e#664#665#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +79,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="629">
               <caret line="40" column="126" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="126" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#219#220#0" expanded="false" />
+                <element signature="e#278#279#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1228,7 +1238,7 @@
       <workItem from="1530596810499" duration="4210000" />
       <workItem from="1530685726024" duration="120000" />
       <workItem from="1530685906737" duration="43000" />
-      <workItem from="1530852175414" duration="72000" />
+      <workItem from="1530852175414" duration="760000" />
     </task>
     <servers />
   </component>
@@ -1265,10 +1275,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30274000" />
+    <option name="totallyTimeSpent" value="30962000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1598,7 +1608,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#631#632#0" expanded="false" />
+            <element signature="e#664#665#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1634,7 +1648,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1014#1015#0" expanded="false" />
+            <element signature="e#1047#1048#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1642,7 +1660,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="40" column="126" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="126" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#219#220#0" expanded="false" />
+            <element signature="e#278#279#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
