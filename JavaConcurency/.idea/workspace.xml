@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="" />
+    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_3/ThreeStoogesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_3/ConnectionDispenser$1.class" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_3/ConnectionDispenser$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_3/ConnectionDispenser.class" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_3/ConnectionDispenser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_3/ThreeStooges.class" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_3/ThreeStooges.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_3/ThreeStooges.java" afterPath="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_3/ThreeStooges.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +22,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConnectionDispenser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConnectionDispenser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_3/ConnectionDispenser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -30,14 +38,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ThreadLocal.java">
+      <file leaf-file-name="NoVisibilityTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_3/NoVisibilityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="125" column="16" lean-forward="false" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreeStooges.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_3/ThreeStooges.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding>
-                <element signature="e#4309#4310#0" expanded="true" />
-                <element signature="e#4336#4337#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#444#452#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#702#710#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreeStoogesTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_3/ThreeStoogesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +144,8 @@
         <option value="$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_3/NoVisibilityTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_3/Animals.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_3/ConnectionDispenser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_3/ThreeStooges.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_3/ThreeStoogesTest.java" />
       </list>
     </option>
   </component>
@@ -597,7 +632,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NoVisibilityTest">
+  <component name="RunManager" selected="JUnit.ThreeStoogesTest">
     <configuration default="false" name="UnsafeCachingFactorizerTest.testCachedFactorize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -676,32 +711,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CachedFactorizerTest.testCachedFactorizer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="net.jcip.examples.ch_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavaConcurency" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.jcip.examples.ch_2" />
-      <option name="MAIN_CLASS_NAME" value="net.jcip.examples.ch_2.CachedFactorizerTest" />
-      <option name="METHOD_NAME" value="testCachedFactorizer" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="NoVisibilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -714,6 +723,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="net.jcip.examples.ch_3" />
       <option name="MAIN_CLASS_NAME" value="net.jcip.examples.ch_3.NoVisibilityTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ThreeStoogesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.jcip.examples.ch_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavaConcurency" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.jcip.examples.ch_3" />
+      <option name="MAIN_CLASS_NAME" value="net.jcip.examples.ch_3.ThreeStoogesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1135,16 +1170,16 @@
       <item index="0" class="java.lang.String" itemvalue="JUnit.UnsafeCachingFactorizerTest.testCachedFactorize" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.UnsafeCachingFactorizerTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.CachedFactorizerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CachedFactorizerTest.testCachedFactorizer" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.NoVisibilityTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NoVisibilityTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ThreeStoogesTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NoVisibilityTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UnsafeCachingFactorizerTest.testCachedFactorize" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CachedFactorizerTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UnsafeCachingFactorizerTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CachedFactorizerTest.testCachedFactorizer" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ThreeStoogesTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NoVisibilityTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UnsafeCachingFactorizerTest.testCachedFactorize" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CachedFactorizerTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UnsafeCachingFactorizerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1178,29 +1213,11 @@
       <workItem from="1531214703881" duration="4760000" />
       <workItem from="1531308599741" duration="142000" />
       <workItem from="1531377449770" duration="4445000" />
-      <workItem from="1531740176103" duration="2559000" />
+      <workItem from="1531740176103" duration="3572000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NoVisibilityTest - 2018.07.10 at 15h 11m 13s.xml">
-      <configuration name="NoVisibilityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoVisibilityTest - 2018.07.10 at 15h 11m 20s.xml">
-      <configuration name="NoVisibilityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoVisibilityTest - 2018.07.10 at 15h 11m 31s.xml">
-      <configuration name="NoVisibilityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoVisibilityTest - 2018.07.10 at 15h 11m 47s.xml">
-      <configuration name="NoVisibilityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoVisibilityTest - 2018.07.10 at 15h 11m 52s.xml">
-      <configuration name="NoVisibilityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoVisibilityTest - 2018.07.10 at 15h 11m 54s.xml">
-      <configuration name="NoVisibilityTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NoVisibilityTest - 2018.07.10 at 15h 11m 57s.xml">
       <configuration name="NoVisibilityTest" configurationId="JUnit" />
     </history-entry>
@@ -1213,9 +1230,27 @@
     <history-entry file="NoVisibilityTest - 2018.07.10 at 18h 03m 20s.xml">
       <configuration name="NoVisibilityTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ThreeStoogesTest - 2018.07.17 at 12h 08m 44s.xml">
+      <configuration name="ThreeStoogesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreeStoogesTest - 2018.07.17 at 12h 09m 37s.xml">
+      <configuration name="ThreeStoogesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreeStoogesTest - 2018.07.17 at 12h 12m 18s.xml">
+      <configuration name="ThreeStoogesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreeStoogesTest - 2018.07.17 at 12h 12m 21s.xml">
+      <configuration name="ThreeStoogesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreeStoogesTest - 2018.07.17 at 12h 12m 27s.xml">
+      <configuration name="ThreeStoogesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreeStoogesTest - 2018.07.17 at 12h 12m 32s.xml">
+      <configuration name="ThreeStoogesTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48549000" />
+    <option name="totallyTimeSpent" value="49562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1224,12 +1259,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1248,7 +1284,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1269,20 +1304,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/Memoizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/Computable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/Memoizer1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1496,16 +1517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_3/NoVisibilityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_3/MutableInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1662,6 +1673,38 @@
             <element signature="e#637#638#0" expanded="true" />
             <element signature="e#676#677#0" expanded="true" />
             <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_3/NoVisibilityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_3/ThreeStooges.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#444#452#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#702#710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_3/ThreeStoogesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

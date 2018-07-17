@@ -31,9 +31,9 @@ public final class ThreeStooges {
 
 	public String getStoogeNames() {
 		List<String> stooges = new Vector<String>();
-		stooges.add("Moe");
-		stooges.add("Larry");
-		stooges.add("Curly");
+		stooges.add("Moe 1");
+		stooges.add("Larry 1");
+		stooges.add("Curly 1");
 		return stooges.toString();
 	}
 }
