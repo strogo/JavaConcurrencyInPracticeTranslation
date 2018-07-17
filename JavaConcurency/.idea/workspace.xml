@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_3/ConnectionDispenser.java" afterPath="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_3/ConnectionDispenser.java" />
-    </list>
+    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1181,7 +1178,7 @@
       <workItem from="1531214703881" duration="4760000" />
       <workItem from="1531308599741" duration="142000" />
       <workItem from="1531377449770" duration="4445000" />
-      <workItem from="1531740176103" duration="1960000" />
+      <workItem from="1531740176103" duration="2559000" />
     </task>
     <servers />
   </component>
@@ -1218,7 +1215,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47950000" />
+    <option name="totallyTimeSpent" value="48549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1608,8 +1605,8 @@
         <state relative-caret-position="836">
           <caret line="139" column="11" lean-forward="false" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
           <folding>
-            <element signature="e#5525#5526#0" expanded="true" />
-            <element signature="e#5572#5573#0" expanded="true" />
+            <element signature="e#5525#5526#0" expanded="false" />
+            <element signature="e#5572#5573#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1619,11 +1616,11 @@
         <state relative-caret-position="221">
           <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1737#1749#0" expanded="true" />
-            <element signature="e#1790#1791#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="false" />
+            <element signature="e#1240#1241#0" expanded="false" />
+            <element signature="e#1737#1749#0" expanded="false" />
+            <element signature="e#1790#1791#0" expanded="false" />
+            <element signature="e#1822#1823#0" expanded="false" />
           </folding>
         </state>
       </provider>
