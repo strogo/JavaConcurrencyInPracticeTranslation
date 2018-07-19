@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_3/HolderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaConcurency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaConcurency.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,8 +65,8 @@
       <file leaf-file-name="HolderTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_3/HolderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="323">
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#448#449#0" expanded="true" />
@@ -637,17 +634,11 @@
       <workItem from="1531740176103" duration="4171000" />
       <workItem from="1531831072654" duration="2057000" />
       <workItem from="1531895975264" duration="502000" />
-      <workItem from="1531896536985" duration="3667000" />
+      <workItem from="1531896536985" duration="4414000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HolderTest_testHolder - 2018.07.18 at 13h 08m 55s.xml">
-      <configuration name="HolderTest.testHolder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HolderTest_testHolder - 2018.07.18 at 13h 09m 20s.xml">
-      <configuration name="HolderTest.testHolder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HolderTest_testHolder - 2018.07.18 at 13h 10m 14s.xml">
       <configuration name="HolderTest.testHolder" configurationId="JUnit" />
     </history-entry>
@@ -672,9 +663,15 @@
     <history-entry file="HolderTest_testHolder - 2018.07.18 at 13h 12m 54s.xml">
       <configuration name="HolderTest.testHolder" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HolderTest_testHolder - 2018.07.18 at 13h 15m 04s.xml">
+      <configuration name="HolderTest.testHolder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HolderTest_testHolder - 2018.07.18 at 13h 15m 33s.xml">
+      <configuration name="HolderTest.testHolder" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56387000" />
+    <option name="totallyTimeSpent" value="57134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1094,8 +1091,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_3/HolderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#448#449#0" expanded="true" />
