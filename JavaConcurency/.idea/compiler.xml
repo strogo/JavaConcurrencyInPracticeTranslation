@@ -9,7 +9,7 @@
         <module name="JavaConcurency" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="JavaConcurency" target="8" />
     </bytecodeTargetLevel>
   </component>
