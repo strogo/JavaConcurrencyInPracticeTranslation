@@ -33,5 +33,4 @@ public class VisualComponent {
 	public void removeMouseListener(MouseListener listener) {
 		mouseListeners.remove(listener);
 	}
-	List
 }
