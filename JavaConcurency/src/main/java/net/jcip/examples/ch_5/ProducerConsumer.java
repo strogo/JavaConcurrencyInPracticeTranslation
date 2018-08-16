@@ -57,6 +57,7 @@ public class ProducerConsumer {
 				crawl(root);
 			} catch (InterruptedException e) {
 				Thread.currentThread().interrupt();
+				e.printStackTrace();
 			}
 		}
 
@@ -89,9 +90,7 @@ public class ProducerConsumer {
 		}
 
 		public void indexFile(File file) {
-			// Index the file...
-		}
-
-		;
+			System.out.println(file.toString());
+		};
 	}
 }
