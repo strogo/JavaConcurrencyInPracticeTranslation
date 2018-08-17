@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,14 +30,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoundedHashSet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BoundedHashSet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/BoundedHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CellularAutomata.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/CellularAutomata.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#1322#1323#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CyclicBarrier.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/CyclicBarrier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="138" column="28" lean-forward="true" selection-start-line="138" selection-start-column="28" selection-end-line="138" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Semaphore.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Semaphore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="310" column="16" selection-start-line="310" selection-start-column="16" selection-end-line="310" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -88,33 +121,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RuntimeException.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/RuntimeException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exception.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Exception.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Error.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Error.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -141,6 +147,7 @@
       <find>ConnectionH</find>
       <find>ConnectionHo</find>
       <find>PackageCIRExec</find>
+      <find>barrier</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -211,7 +218,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -702,7 +709,7 @@
       <workItem from="1533535669143" duration="3466000" />
       <workItem from="1533641580250" duration="5800000" />
       <workItem from="1534152245013" duration="684000" />
-      <workItem from="1534222834696" duration="10369000" />
+      <workItem from="1534222834696" duration="12000000" />
     </task>
     <servers />
   </component>
@@ -739,10 +746,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80383000" />
+    <option name="totallyTimeSpent" value="82014000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -759,9 +766,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24733475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24733475" />
       <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Structure" order="10" side_tool="true" visible="true" weight="0.22068231" />
+      <window_info active="true" anchor="right" id="Structure" order="10" side_tool="true" visible="true" weight="0.22068231" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -793,27 +800,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_4/VisualComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/GIT_NEW_SERVER/CENTRAL_503/java/ois/visu/VISUPageEan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="83" lean-forward="true" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_4/NumberRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_4/SafePoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -1203,12 +1189,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="310" column="16" selection-start-line="310" selection-start-column="16" selection-end-line="310" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/BoundedHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="138" column="28" lean-forward="true" selection-start-line="138" selection-start-column="28" selection-end-line="138" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/CellularAutomata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
           </folding>
         </state>
       </provider>
