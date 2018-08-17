@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="" />
+    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +64,8 @@
       <file leaf-file-name="TestHarness.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/TestHarness.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+            <state relative-caret-position="187">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
                 <element signature="e#518#741#0" expanded="true" />
                 <element signature="e#740#741#0" expanded="true" />
@@ -250,6 +252,17 @@
               <item name="jcip" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
               <item name="ch_5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaConcurency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaConcurency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jcip" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="ch_5" type="462c0819:PsiDirectoryNode" />
+              <item name="Preloader.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="JavaConcurency" type="b2602c69:ProjectViewProjectNode" />
@@ -665,7 +678,7 @@
       <workItem from="1533535669143" duration="3466000" />
       <workItem from="1533641580250" duration="5800000" />
       <workItem from="1534152245013" duration="684000" />
-      <workItem from="1534222834696" duration="6720000" />
+      <workItem from="1534222834696" duration="7356000" />
     </task>
     <servers />
   </component>
@@ -702,7 +715,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76734000" />
+    <option name="totallyTimeSpent" value="77370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1153,8 +1166,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/TestHarness.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="e#518#741#0" expanded="true" />
             <element signature="e#740#741#0" expanded="true" />
