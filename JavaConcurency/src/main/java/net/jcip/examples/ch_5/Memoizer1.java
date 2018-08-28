@@ -16,16 +16,16 @@ import java.util.Map;
 public class Memoizer1<A, V> implements Computable<A, V> {
 	@GuardedBy("this")
 	private final Map<A, V> cache = new HashMap<A, V>();
-	private final Computable<A, V> c;
+	private final Computable<A, V> comp;
 
-	public Memoizer1(Computable<A, V> c) {
-		this.c = c;
+	public Memoizer1(Computable<A, V> comp) {
+		this.comp = comp;
 	}
 
 	public synchronized V compute(A arg) throws InterruptedException {
 		V result = cache.get(arg);
 		if (result == null) {
-			result = c.compute(arg);
+			result = comp.compute(arg);
 			cache.put(arg, result);
 		}
 		return result;
