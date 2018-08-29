@@ -10,34 +10,33 @@ import java.util.concurrent.*;
  * @author Brian Goetz and Tim Peierls
  */
 public class Memoizer<A, V> implements Computable<A, V> {
-	private final ConcurrentMap<A, Future<V>> cache
-			= new ConcurrentHashMap<A, Future<V>>();
-	private final Computable<A, V> c;
+	private final ConcurrentMap<A, Future<V>> cache = new ConcurrentHashMap<A, Future<V>>();
+	private final Computable<A, V> comp;
 
-	public Memoizer(Computable<A, V> c) {
-		this.c = c;
+	public Memoizer(Computable<A, V> comp) {
+		this.comp = comp;
 	}
 
 	public V compute(final A arg) throws InterruptedException {
 		while (true) {
-			Future<V> f = cache.get(arg);
-			if (f == null) {
+			Future<V> cacheVal = cache.get(arg);
+			if (cacheVal == null) {
 				Callable<V> eval = new Callable<V>() {
 					public V call() throws InterruptedException {
-						return c.compute(arg);
+						return comp.compute(arg);
 					}
 				};
 				FutureTask<V> ft = new FutureTask<V>(eval);
-				f = cache.putIfAbsent(arg, ft);
-				if (f == null) {
-					f = ft;
+				cacheVal = cache.putIfAbsent(arg, ft);
+				if (cacheVal == null) {
+					cacheVal = ft;
 					ft.run();
 				}
 			}
 			try {
-				return f.get();
+				return cacheVal.get();
 			} catch (CancellationException e) {
-				cache.remove(arg, f);
+				cache.remove(arg, cacheVal);
 			} catch (ExecutionException e) {
 				throw LaunderThrowable.launderThrowable(e.getCause());
 			}

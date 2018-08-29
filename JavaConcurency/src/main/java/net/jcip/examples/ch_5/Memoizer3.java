@@ -11,29 +11,28 @@ import java.util.concurrent.*;
  * @author Brian Goetz and Tim Peierls
  */
 public class Memoizer3<A, V> implements Computable<A, V> {
-	private final Map<A, Future<V>> cache
-			= new ConcurrentHashMap<A, Future<V>>();
-	private final Computable<A, V> c;
+	private final Map<A, Future<V>> cache = new ConcurrentHashMap<A, Future<V>>();
+	private final Computable<A, V> comp;
 
-	public Memoizer3(Computable<A, V> c) {
-		this.c = c;
+	public Memoizer3(Computable<A, V> comp) {
+		this.comp = comp;
 	}
 
 	public V compute(final A arg) throws InterruptedException {
-		Future<V> f = cache.get(arg);
-		if (f == null) {
+		Future<V> cachedVal = cache.get(arg);
+		if (cachedVal == null) {
 			Callable<V> eval = new Callable<V>() {
 				public V call() throws InterruptedException {
-					return c.compute(arg);
+					return comp.compute(arg);
 				}
 			};
 			FutureTask<V> ft = new FutureTask<V>(eval);
-			f = ft;
+			cachedVal = ft;
 			cache.put(arg, ft);
 			ft.run(); // call to c.compute happens here
 		}
 		try {
-			return f.get();
+			return cachedVal.get();
 		} catch (ExecutionException e) {
 			throw LaunderThrowable.launderThrowable(e.getCause());
 		}

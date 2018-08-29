@@ -1,8 +1,6 @@
 package net.jcip.examples.ch_5;
 
 import net.jcip.annotations.ThreadSafe;
-import net.jcip.examples.ch_5.Computable;
-import net.jcip.examples.ch_5.Memoizer;
 
 import javax.servlet.*;
 import java.math.BigInteger;
@@ -16,14 +14,14 @@ import java.math.BigInteger;
  */
 @ThreadSafe
 public class Factorizer extends GenericServlet implements Servlet {
-	private final Computable<BigInteger, BigInteger[]> c =
+	private final Computable<BigInteger, BigInteger[]> comp =
 			new Computable<BigInteger, BigInteger[]>() {
 				public BigInteger[] compute(BigInteger arg) {
 					return factor(arg);
 				}
 			};
 	private final Computable<BigInteger, BigInteger[]> cache
-			= new Memoizer<BigInteger, BigInteger[]>(c);
+			= new Memoizer<BigInteger, BigInteger[]>(comp);
 
 	public void service(ServletRequest req,
 	                    ServletResponse resp) {
