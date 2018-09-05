@@ -13,7 +13,7 @@ import static net.jcip.examples.ch_5.LaunderThrowable.launderThrowable;
  * @author Brian Goetz and Tim Peierls
  */
 public abstract class Renderer {
-	
+
 	private final ExecutorService executor;
 
 	Renderer(ExecutorService executor) {
