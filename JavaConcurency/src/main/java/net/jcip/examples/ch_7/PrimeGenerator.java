@@ -23,8 +23,7 @@ public class PrimeGenerator implements Runnable {
 	private static ExecutorService exec = Executors.newCachedThreadPool();
 
 	@GuardedBy("this")
-	private final List<BigInteger> primes
-			= new ArrayList<BigInteger>();
+	private final List<BigInteger> primes = new ArrayList<BigInteger>();
 	private volatile boolean cancelled;
 
 	static List<BigInteger> aSecondOfPrimes() throws InterruptedException {
