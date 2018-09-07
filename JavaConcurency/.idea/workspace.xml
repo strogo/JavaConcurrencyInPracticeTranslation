@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterDir="false" />
-    </list>
+    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,79 +13,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrimeGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/PrimeGenerator.java">
+      <file leaf-file-name="BrokenPrimeProducer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/BrokenPrimeProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="561">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#673#685#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimedRun1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/TimedRun1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimedRun.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/TimedRun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutorService.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="175" column="11" selection-start-line="175" selection-start-column="11" selection-end-line="175" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrimeGeneratorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_7/PrimeGeneratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutOfTimeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_6/OutOfTimeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -96,16 +33,57 @@
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/math/BigInteger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="503">
-              <caret line="785" column="22" selection-start-line="785" selection-start-column="22" selection-end-line="785" selection-end-column="22" />
+              <caret line="1196" column="35" selection-start-line="1196" selection-start-column="35" selection-end-line="1196" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeUnit.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/TimeUnit.java">
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="381" column="16" selection-start-line="381" selection-start-column="16" selection-end-line="381" selection-end-column="16" />
+            <state relative-caret-position="291">
+              <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+              <folding>
+                <element signature="e#37304#37305#0" expanded="true" />
+                <element signature="e#37347#37348#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runnable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimeGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/PrimeGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimeProducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/PrimeProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,6 +122,7 @@
       <find>renderPageWithAd</find>
       <find>Future&lt;?&gt; task</find>
       <find>&lt;?&gt;</find>
+      <find>primes</find>
     </findStrings>
     <dirStrings>
       <dir>D:\EDU_PROJECTS\JavaConcurencyTranslation\JavaConcurency\src\main\java</dir>
@@ -225,7 +204,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
     <option name="width" value="1678" />
     <option name="height" value="1040" />
@@ -724,7 +703,7 @@
       <workItem from="1534152245013" duration="684000" />
       <workItem from="1534222834696" duration="23203000" />
       <workItem from="1535700657380" duration="4749000" />
-      <workItem from="1535952715324" duration="20453000" />
+      <workItem from="1535952715324" duration="23328000" />
     </task>
     <servers />
   </component>
@@ -761,10 +740,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118419000" />
+    <option name="totallyTimeSpent" value="121294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -781,10 +760,10 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info anchor="right" id="Structure" order="10" side_tool="true" visible="true" weight="0.22068231" />
+      <window_info active="true" anchor="right" id="Structure" order="10" side_tool="true" visible="true" weight="0.22068231" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -815,34 +794,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/Memoizer1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/Factorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/Computable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_5/Memoizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="65" lean-forward="true" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NullPointerException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1176,13 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/math/BigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="785" column="22" selection-start-line="785" selection-start-column="22" selection-end-line="785" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1221,21 +1165,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/PrimeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#673#685#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/TimedRun1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1252,10 +1181,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/TimedRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="391">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/PrimeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/PrimeProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="1196" column="35" selection-start-line="1196" selection-start-column="35" selection-end-line="1196" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+          <folding>
+            <element signature="e#37304#37305#0" expanded="true" />
+            <element signature="e#37347#37348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/BrokenPrimeProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
           </folding>
         </state>
       </provider>
