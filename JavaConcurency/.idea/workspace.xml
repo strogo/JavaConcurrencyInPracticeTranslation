@@ -88,8 +88,8 @@
       <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current-in-tab="true">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="1988" column="27" selection-start-line="1988" selection-start-column="27" selection-end-line="1988" selection-end-column="27" />
+            <state relative-caret-position="478">
+              <caret line="1972" column="24" lean-forward="true" selection-start-line="1972" selection-start-column="24" selection-end-line="1972" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -159,7 +159,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ConnectionH</find>
       <find>ConnectionHo</find>
       <find>PackageCIRExec</find>
       <find>barrier</find>
@@ -189,6 +188,7 @@
       <find>threadExited</find>
       <find>UEHLogger</find>
       <find>MyThreadFactory</find>
+      <find>runFinalizersOnExit</find>
     </findStrings>
     <dirStrings>
       <dir>D:\EDU_PROJECTS\JavaConcurencyTranslation\JavaConcurency\src\main\java</dir>
@@ -849,7 +849,7 @@
       <workItem from="1535700657380" duration="4749000" />
       <workItem from="1535952715324" duration="24458000" />
       <workItem from="1536583099221" duration="16876000" />
-      <workItem from="1536907561571" duration="26508000" />
+      <workItem from="1536907561571" duration="27154000" />
     </task>
     <servers />
   </component>
@@ -886,7 +886,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165808000" />
+    <option name="totallyTimeSpent" value="166454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1392,8 +1392,8 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="1988" column="27" selection-start-line="1988" selection-start-column="27" selection-end-line="1988" selection-end-column="27" />
+        <state relative-caret-position="478">
+          <caret line="1972" column="24" lean-forward="true" selection-start-line="1972" selection-start-column="24" selection-end-line="1972" selection-end-column="24" />
         </state>
       </provider>
     </entry>
