@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterDir="false" />
-    </list>
+    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,15 +44,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="1369" column="7" lean-forward="true" selection-start-line="1369" selection-start-column="7" selection-end-line="1369" selection-end-column="7" />
+            <state relative-caret-position="580">
+              <caret line="1387" column="63" lean-forward="true" selection-start-line="1387" selection-start-column="63" selection-end-line="1387" selection-end-column="63" />
               <folding>
                 <element signature="e#52232#52233#0" expanded="true" />
                 <element signature="e#52261#52262#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FutureTask.java" pinned="false" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/FutureTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -750,7 +757,7 @@
       <workItem from="1535700657380" duration="4749000" />
       <workItem from="1535952715324" duration="24458000" />
       <workItem from="1536583099221" duration="16876000" />
-      <workItem from="1536907561571" duration="28587000" />
+      <workItem from="1536907561571" duration="29192000" />
     </task>
     <servers />
   </component>
@@ -787,7 +794,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167887000" />
+    <option name="totallyTimeSpent" value="168492000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1004,13 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="72" column="71" lean-forward="true" selection-start-line="72" selection-start-column="71" selection-end-line="72" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -1297,12 +1297,19 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="1369" column="7" lean-forward="true" selection-start-line="1369" selection-start-column="7" selection-end-line="1369" selection-end-column="7" />
+        <state relative-caret-position="580">
+          <caret line="1387" column="63" lean-forward="true" selection-start-line="1387" selection-start-column="63" selection-end-line="1387" selection-end-column="63" />
           <folding>
             <element signature="e#52232#52233#0" expanded="true" />
             <element signature="e#52261#52262#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
         </state>
       </provider>
     </entry>
