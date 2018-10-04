@@ -25,8 +25,7 @@ public abstract class BackgroundTask<V> implements Runnable, Future<V> {
 	protected abstract V compute() throws Exception;
 
 	// Called in the event thread
-	protected void onCompletion(V result, Throwable exception,
-	                            boolean cancelled) {
+	protected void onCompletion(V result, Throwable exception, boolean cancelled) {
 	}
 
 	protected void onProgress(int current, int max) {
