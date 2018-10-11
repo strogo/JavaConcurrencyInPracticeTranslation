@@ -3,25 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaConcurency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaConcurency.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DemonstrateDeadlock$1TransferThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DemonstrateDeadlock$1TransferThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DemonstrateDeadlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DemonstrateDeadlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DynamicOrderDeadlock$Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DynamicOrderDeadlock$DollarAmount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DynamicOrderDeadlock$InsufficientFundsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DynamicOrderDeadlock$InsufficientFundsException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DynamicOrderDeadlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DynamicOrderDeadlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/InduceLockOrder$InsufficientFundsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/InduceLockOrder$InsufficientFundsException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/InduceLockOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/InduceLockOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_7/PrimeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_7/PrimeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_7/TimedRun2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_7/TimedRun2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_7/TimedRun2$1RethrowableTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_7/TimedRun2$1RethrowableTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_7/TimedRun2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_7/TimedRun2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_9/BackgroundTask$Computation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_9/BackgroundTask$Computation$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_9/BackgroundTask$Computation$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_9/BackgroundTask$Computation$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_9/BackgroundTask$Computation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_9/BackgroundTask$Computation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_9/BackgroundTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_9/BackgroundTask.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,13 +40,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="46" />
+          <entry key="java" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="46" />
+          <entry key="JAVA" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -116,7 +97,73 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10/LeftRightDeadlock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10/CooperatingNoDeadlock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1103#1104#0" expanded="true" />
+                <element signature="e#1416#1417#0" expanded="true" />
+                <element signature="e#1449#1450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
+              <folding>
+                <element signature="e#3709#3710#0" expanded="true" />
+                <element signature="e#3746#3747#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/AbstractCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="340" column="19" selection-start-line="340" selection-start-column="19" selection-end-line="340" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="466" column="11" selection-start-line="466" selection-start-column="11" selection-end-line="466" selection-end-column="11" />
+              <folding>
+                <element signature="e#19072#19073#0" expanded="true" />
+                <element signature="e#19130#19131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10/DemonstrateDeadlock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="680">
@@ -133,58 +180,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_6/ThreadPerTaskExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_9/ListenerExamples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2125">
-              <caret line="125" column="60" selection-start-line="125" selection-start-column="60" selection-end-line="125" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#997#1136#0" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1211#1410#0" expanded="true" />
-                <element signature="e#1299#1399#0" expanded="true" />
-                <element signature="e#1398#1399#0" expanded="true" />
-                <element signature="e#1409#1410#0" expanded="true" />
-                <element signature="e#1490#1961#0" expanded="true" />
-                <element signature="e#1635#1950#0" expanded="true" />
-                <element signature="e#1798#1927#0" expanded="true" />
-                <element signature="e#1926#1927#0" expanded="true" />
-                <element signature="e#1949#1950#0" expanded="true" />
-                <element signature="e#1960#1961#0" expanded="true" />
-                <element signature="e#2039#2582#0" expanded="true" />
-                <element signature="e#2427#2428#0" expanded="true" />
-                <element signature="e#2456#2457#0" expanded="true" />
-                <element signature="e#2581#2582#0" expanded="true" />
-                <element signature="e#2619#2762#0" expanded="true" />
-                <element signature="e#2761#2762#0" expanded="true" />
-                <element signature="e#2855#3710#0" expanded="true" />
-                <element signature="e#3385#3386#0" expanded="true" />
-                <element signature="e#3412#3413#0" expanded="true" />
-                <element signature="e#3709#3710#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/SwingWorker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3179">
-              <caret line="225" column="7" selection-start-line="225" selection-start-column="7" selection-end-line="225" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -457,7 +452,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539247458033" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539257650197" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -722,7 +717,7 @@
       <workItem from="1538457125292" duration="5822000" />
       <workItem from="1538631247476" duration="3558000" />
       <workItem from="1538974146720" duration="8914000" />
-      <workItem from="1539235019769" duration="5081000" />
+      <workItem from="1539235019769" duration="8105000" />
     </task>
     <servers />
   </component>
@@ -759,7 +754,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205042000" />
+    <option name="totallyTimeSpent" value="208066000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -821,34 +816,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_6/Renderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/TrackingExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="381" column="16" selection-start-line="381" selection-start-column="16" selection-end-line="381" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_6/OutOfTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_7/WebCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
@@ -1247,16 +1214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10/CooperatingNoDeadlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_1/SequenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1295,6 +1252,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10/DemonstrateDeadlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10/InduceLockOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1302,12 +1269,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10/DemonstrateDeadlock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10/LeftRightDeadlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="466" column="11" selection-start-line="466" selection-start-column="11" selection-end-line="466" selection-end-column="11" />
+          <folding>
+            <element signature="e#19072#19073#0" expanded="true" />
+            <element signature="e#19130#19131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="340" column="19" selection-start-line="340" selection-start-column="19" selection-end-line="340" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
+          <folding>
+            <element signature="e#3709#3710#0" expanded="true" />
+            <element signature="e#3746#3747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10/CooperatingNoDeadlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1416#1417#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
           </folding>
         </state>
       </provider>
