@@ -30,8 +30,7 @@ public class DeadlockAvoidance {
 	                             Account toAcct,
 	                             DollarAmount amount,
 	                             long timeout,
-	                             TimeUnit unit)
-			throws InsufficientFundsException, InterruptedException {
+	                             TimeUnit unit)	throws InsufficientFundsException, InterruptedException {
 		long fixedDelay = getFixedDelayComponentNanos(timeout, unit);
 		long randMod = getRandomDelayModulusNanos(timeout, unit);
 		long stopTime = System.nanoTime() + unit.toNanos(timeout);
