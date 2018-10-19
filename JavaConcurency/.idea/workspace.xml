@@ -28,25 +28,25 @@
     <session id="-1766189473">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="5" />
+          <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="60" />
+          <entry key="java" value="61" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="60" />
+          <entry key="JAVA" value="61" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -74,26 +74,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_13/DeadlockAvoidance.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_11/WorkerThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            <state relative-caret-position="442">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -339,6 +336,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaConcurency" type="58d84e3e:PackageViewProjectNode" />
+              <item name="JavaConcurency" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="JavaConcurency" type="58d84e3e:PackageViewProjectNode" />
+              <item name="JavaConcurency" type="616d4139:PackageViewModuleNode" />
+              <item name="net.jcip" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaConcurency" type="58d84e3e:PackageViewProjectNode" />
+              <item name="JavaConcurency" type="616d4139:PackageViewModuleNode" />
+              <item name="net.jcip" type="1f31426a:PackageElementNode" />
+              <item name="annotations" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaConcurency" type="58d84e3e:PackageViewProjectNode" />
+              <item name="JavaConcurency" type="616d4139:PackageViewModuleNode" />
+              <item name="net.jcip" type="1f31426a:PackageElementNode" />
+              <item name="examples" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaConcurency" type="58d84e3e:PackageViewProjectNode" />
+              <item name="JavaConcurency" type="616d4139:PackageViewModuleNode" />
+              <item name="net.jcip" type="1f31426a:PackageElementNode" />
+              <item name="examples" type="1f31426a:PackageElementNode" />
+              <item name="ch_3" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -400,7 +433,7 @@
               <item name="net" type="462c0819:PsiDirectoryNode" />
               <item name="jcip" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="ch_10" type="462c0819:PsiDirectoryNode" />
+              <item name="ch_11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaConcurency" type="b2602c69:ProjectViewProjectNode" />
@@ -430,42 +463,6 @@
           <select />
         </subPane>
         <option name="show-excluded-files" value="false" />
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaConcurency" type="58d84e3e:PackageViewProjectNode" />
-              <item name="JavaConcurency" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="JavaConcurency" type="58d84e3e:PackageViewProjectNode" />
-              <item name="JavaConcurency" type="616d4139:PackageViewModuleNode" />
-              <item name="net.jcip" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="JavaConcurency" type="58d84e3e:PackageViewProjectNode" />
-              <item name="JavaConcurency" type="616d4139:PackageViewModuleNode" />
-              <item name="net.jcip" type="1f31426a:PackageElementNode" />
-              <item name="annotations" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="JavaConcurency" type="58d84e3e:PackageViewProjectNode" />
-              <item name="JavaConcurency" type="616d4139:PackageViewModuleNode" />
-              <item name="net.jcip" type="1f31426a:PackageElementNode" />
-              <item name="examples" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="JavaConcurency" type="58d84e3e:PackageViewProjectNode" />
-              <item name="JavaConcurency" type="616d4139:PackageViewModuleNode" />
-              <item name="net.jcip" type="1f31426a:PackageElementNode" />
-              <item name="examples" type="1f31426a:PackageElementNode" />
-              <item name="ch_3" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
       </pane>
     </panes>
   </component>
@@ -743,6 +740,7 @@
       <workItem from="1539235019769" duration="12787000" />
       <workItem from="1539668543092" duration="1272000" />
       <workItem from="1539690121137" duration="892000" />
+      <workItem from="1539935256134" duration="618000" />
     </task>
     <servers />
   </component>
@@ -779,7 +777,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214912000" />
+    <option name="totallyTimeSpent" value="215530000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,8 +790,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945945" visible="true" weight="0.25159913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945945" visible="true" weight="0.25426438" />
       <window_info id="Nl-Palette" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -840,13 +839,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_8/MyThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/logging/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -1347,6 +1339,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_11/WorkerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
