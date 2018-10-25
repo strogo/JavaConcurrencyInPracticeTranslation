@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="" />
+    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,14 +42,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="68" />
+          <entry key="java" value="70" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="68" />
+          <entry key="JAVA" value="70" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -129,11 +132,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="839">
-              <caret line="272" column="6" selection-start-line="272" selection-start-column="6" selection-end-line="272" selection-end-column="6" />
+            <state relative-caret-position="567">
+              <caret line="256" column="2" lean-forward="true" selection-start-line="256" selection-start-column="2" selection-end-line="256" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="119" column="7" lean-forward="true" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -162,7 +183,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getNextTask</find>
       <find>aSecondOfPrimes</find>
       <find>timedRun</find>
       <find>ScheduledExecutorService cancelExec</find>
@@ -192,6 +212,7 @@
       <find>CancelListener</find>
       <find>Executor</find>
       <find>tryLock</find>
+      <find>ConcurrentHashMap</find>
     </findStrings>
     <dirStrings>
       <dir>D:\EDU_PROJECTS\JavaConcurencyTranslation\JavaConcurency\src\main\java</dir>
@@ -700,7 +721,7 @@
       <workItem from="1539690121137" duration="892000" />
       <workItem from="1539935256134" duration="618000" />
       <workItem from="1540298539430" duration="3822000" />
-      <workItem from="1540385605055" duration="1905000" />
+      <workItem from="1540385605055" duration="4223000" />
     </task>
     <servers />
   </component>
@@ -737,7 +758,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221257000" />
+    <option name="totallyTimeSpent" value="223575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -799,37 +820,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="682" column="62" lean-forward="true" selection-start-line="682" selection-start-column="62" selection-end-line="682" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#31219#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#15215#15216#0" expanded="true" />
-            <element signature="e#15264#15265#0" expanded="true" />
-            <element signature="e#17078#17079#0" expanded="true" />
-            <element signature="e#17130#17131#0" expanded="true" />
-            <element signature="e#28463#28464#0" expanded="true" />
-            <element signature="e#28508#28509#0" expanded="true" />
-            <element signature="e#28564#28565#0" expanded="true" />
-            <element signature="e#28609#28610#0" expanded="true" />
-            <element signature="e#28725#28726#0" expanded="true" />
-            <element signature="e#29802#29803#0" expanded="true" />
-            <element signature="e#29841#29842#0" expanded="true" />
-            <element signature="e#29877#29878#0" expanded="true" />
-            <element signature="e#29917#29918#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="318" column="46" selection-start-line="318" selection-start-column="46" selection-end-line="318" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_8/TimingThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -1326,8 +1316,22 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="839">
-          <caret line="272" column="6" selection-start-line="272" selection-start-column="6" selection-end-line="272" selection-end-column="6" />
+        <state relative-caret-position="567">
+          <caret line="256" column="2" lean-forward="true" selection-start-line="256" selection-start-column="2" selection-end-line="256" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="119" column="7" lean-forward="true" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
         </state>
       </provider>
     </entry>
