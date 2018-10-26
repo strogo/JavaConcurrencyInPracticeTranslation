@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +30,7 @@
     <session id="-1766189473">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="7" />
@@ -721,7 +720,7 @@
       <workItem from="1539690121137" duration="892000" />
       <workItem from="1539935256134" duration="618000" />
       <workItem from="1540298539430" duration="3822000" />
-      <workItem from="1540385605055" duration="4223000" />
+      <workItem from="1540385605055" duration="4822000" />
     </task>
     <servers />
   </component>
@@ -758,7 +757,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223575000" />
+    <option name="totallyTimeSpent" value="224174000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
