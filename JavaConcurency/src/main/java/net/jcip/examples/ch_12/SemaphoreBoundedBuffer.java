@@ -14,7 +14,11 @@ import java.util.concurrent.Semaphore;
  */
 @ThreadSafe
 public class SemaphoreBoundedBuffer<E> {
-	private final Semaphore availableItems, availableSpaces;
+	/** Количество элементов, которое может быть удалено из буфера */
+	private final Semaphore availableItems;
+	/** Количество элементов, которое может быть добавлено в буфер, */
+	private final Semaphore  availableSpaces;
+
 	@GuardedBy("this")
 	private final E[] items;
 	@GuardedBy("this")
@@ -37,15 +41,15 @@ public class SemaphoreBoundedBuffer<E> {
 	}
 
 	public void put(E x) throws InterruptedException {
-		availableSpaces.acquire();
+		availableSpaces.acquire();/*доб*/
 		doInsert(x);
-		availableItems.release();
+		availableItems.release();/*уд*/
 	}
 
 	public E take() throws InterruptedException {
-		availableItems.acquire();
+		availableItems.acquire();/*уд*/
 		E item = doExtract();
-		availableSpaces.release();
+		availableSpaces.release();/*доб*/
 		return item;
 	}
 
