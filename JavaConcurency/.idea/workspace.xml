@@ -3,20 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_12/SemaphoreBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_12/SemaphoreBoundedBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/CooperatingNoDeadlock$Taxi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/CooperatingNoDeadlock$Taxi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DemonstrateDeadlock$1TransferThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DemonstrateDeadlock$1TransferThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DemonstrateDeadlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DemonstrateDeadlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DynamicOrderDeadlock$InsufficientFundsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DynamicOrderDeadlock$InsufficientFundsException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DynamicOrderDeadlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/DynamicOrderDeadlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/InduceLockOrder$InsufficientFundsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/InduceLockOrder$InsufficientFundsException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/InduceLockOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_10/InduceLockOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_12/SemaphoreBoundedBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_12/SemaphoreBoundedBuffer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_13/DeadlockAvoidance$Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_13/DeadlockAvoidance$Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_13/DeadlockAvoidance$DollarAmount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_13/DeadlockAvoidance$DollarAmount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_13/DeadlockAvoidance$InsufficientFundsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_13/DeadlockAvoidance$InsufficientFundsException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_13/DeadlockAvoidance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/jcip/examples/ch_13/DeadlockAvoidance.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,15 +43,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="81" />
+          <entry key="class" value="3" />
+          <entry key="java" value="85" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="81" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="85" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -72,13 +60,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="268" />
+          <entry key="java" value="280" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="268" />
+          <entry key="JAVA" value="280" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -95,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_12/TestBoundedBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+            <state relative-caret-position="190">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#627#636#0" expanded="true" />
@@ -104,6 +92,46 @@
                 <element signature="e#1051#1060#0" expanded="true" />
                 <element signature="e#1083#1265#0" expanded="true" />
                 <element signature="e#1264#1265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/junit/framework/TestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="218" column="24" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
+              <folding>
+                <element signature="e#6468#6469#0" expanded="true" />
+                <element signature="e#6513#6514#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/junit/framework/Assert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+              <folding>
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1267#1268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_12/SemaphoreBoundedBuffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,7 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>aSecondOfPrimes</find>
       <find>timedRun</find>
       <find>ScheduledExecutorService cancelExec</find>
       <find>Thread</find>
@@ -150,6 +177,7 @@
       <find>Executor</find>
       <find>tryLock</find>
       <find>ConcurrentHashMap</find>
+      <find>LOCKUP_DETECT_TIMEOUT</find>
     </findStrings>
     <dirStrings>
       <dir>D:\EDU_PROJECTS\JavaConcurencyTranslation\JavaConcurency\src\main\java</dir>
@@ -209,9 +237,9 @@
         <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_13/DeadlockAvoidance.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_12/SemaphoreBoundedBuffer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_12/TestBoundedBuffer.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_12/TestRBoundedBuffer.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/jcip/examples/ch_12/TestBoundedBuffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_12/TestBoundedBuffer.java" />
       </list>
     </option>
   </component>
@@ -243,6 +271,72 @@
     <option name="x" value="1" />
     <option name="width" value="1678" />
     <option name="height" value="1040" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>InitializationJava</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>MemoryJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -404,14 +498,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540817844688" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540887523418" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15166341" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -440,7 +534,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBoundedBuffer">
+  <component name="RunManager" selected="JUnit.TestBoundedBuffer.testTakeBlocksWhenEmpty">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -517,21 +611,6 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="OutOfTimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaConcurency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.jcip.examples.ch_6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.jcip.examples.ch_6" />
-      <option name="MAIN_CLASS_NAME" value="net.jcip.examples.ch_6.OutOfTimeTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrimeGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaConcurency" />
       <extension name="coverage">
@@ -557,6 +636,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="net.jcip.examples.ch_12" />
       <option name="MAIN_CLASS_NAME" value="net.jcip.examples.ch_12.TestBoundedBuffer" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBoundedBuffer.testTakeBlocksWhenEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaConcurency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.jcip.examples.ch_12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.jcip.examples.ch_12" />
+      <option name="MAIN_CLASS_NAME" value="net.jcip.examples.ch_12.TestBoundedBuffer" />
+      <option name="METHOD_NAME" value="testTakeBlocksWhenEmpty" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -604,18 +700,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DemonstrateDeadlock" />
-      <item itemvalue="JUnit.OutOfTimeTest" />
       <item itemvalue="JUnit.PrimeGeneratorTest" />
       <item itemvalue="JUnit.TestRBoundedBuffer" />
       <item itemvalue="JUnit.TestBoundedBuffer" />
+      <item itemvalue="JUnit.TestBoundedBuffer.testTakeBlocksWhenEmpty" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBoundedBuffer.testTakeBlocksWhenEmpty" />
         <item itemvalue="JUnit.TestBoundedBuffer" />
         <item itemvalue="JUnit.TestRBoundedBuffer" />
         <item itemvalue="Application.DemonstrateDeadlock" />
         <item itemvalue="JUnit.PrimeGeneratorTest" />
-        <item itemvalue="JUnit.OutOfTimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -679,26 +775,11 @@
       <workItem from="1539935256134" duration="618000" />
       <workItem from="1540298539430" duration="3822000" />
       <workItem from="1540385605055" duration="4822000" />
-      <workItem from="1540801380422" duration="4637000" />
+      <workItem from="1540801380422" duration="6066000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBoundedBuffer - 2018.10.29 at 17h 47m 30s.xml">
-      <configuration name="TestBoundedBuffer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBoundedBuffer - 2018.10.29 at 17h 48m 12s.xml">
-      <configuration name="TestBoundedBuffer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBoundedBuffer - 2018.10.29 at 17h 48m 25s.xml">
-      <configuration name="TestBoundedBuffer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBoundedBuffer - 2018.10.29 at 17h 48m 36s.xml">
-      <configuration name="TestBoundedBuffer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBoundedBuffer - 2018.10.29 at 17h 52m 00s.xml">
-      <configuration name="TestBoundedBuffer" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestBoundedBuffer - 2018.10.29 at 17h 52m 18s.xml">
       <configuration name="TestBoundedBuffer" configurationId="JUnit" />
     </history-entry>
@@ -714,9 +795,24 @@
     <history-entry file="TestRBoundedBuffer - 2018.10.29 at 17h 55m 20s.xml">
       <configuration name="TestRBoundedBuffer" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestBoundedBuffer - 2018.10.29 at 17h 57m 04s.xml">
+      <configuration name="TestBoundedBuffer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBoundedBuffer - 2018.10.29 at 17h 57m 31s.xml">
+      <configuration name="TestBoundedBuffer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBoundedBuffer - 2018.10.29 at 18h 04m 16s.xml">
+      <configuration name="TestBoundedBuffer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBoundedBuffer - 2018.10.29 at 18h 04m 39s.xml">
+      <configuration name="TestBoundedBuffer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBoundedBuffer - 2018.10.29 at 18h 04m 51s.xml">
+      <configuration name="TestBoundedBuffer" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228811000" />
+    <option name="totallyTimeSpent" value="230240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,7 +827,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945945" visible="true" weight="0.21695095" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945945" visible="true" weight="0.21695095" />
       <window_info id="Nl-Palette" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -741,8 +837,8 @@
       <window_info id="DB Browser" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32792208" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3982684" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
@@ -778,40 +874,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_8/PuzzleSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_9/SwingUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/AbstractExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -1219,20 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_12/SemaphoreBoundedBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
@@ -1265,10 +1313,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_12/SemaphoreBoundedBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/junit/framework/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/junit/framework/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="218" column="24" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
+          <folding>
+            <element signature="e#6468#6469#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_12/TestBoundedBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+        <state relative-caret-position="190">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#627#636#0" expanded="true" />
