@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="" />
+    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="1536" lean-forward="true" selection-start-line="1536" selection-end-line="1536" />
+            <state relative-caret-position="529">
+              <caret line="4585" column="75" lean-forward="true" selection-start-line="4585" selection-start-column="75" selection-end-line="4585" selection-end-column="75" />
               <folding>
                 <element signature="e#65240#65241#0" expanded="true" />
                 <element signature="e#65287#65288#0" expanded="true" />
@@ -133,7 +135,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/time/Instant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -173,11 +175,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/Lock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="260" column="12" selection-start-line="260" selection-start-column="12" selection-end-line="260" selection-end-column="12" />
+            <state relative-caret-position="737">
+              <caret line="355" column="14" selection-start-line="355" selection-start-column="14" selection-end-line="355" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -519,7 +521,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541653984819" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541653985591" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -779,7 +781,7 @@
       <workItem from="1539935256134" duration="618000" />
       <workItem from="1540298539430" duration="3822000" />
       <workItem from="1540385605055" duration="4822000" />
-      <workItem from="1540801380422" duration="24355000" />
+      <workItem from="1540801380422" duration="25055000" />
     </task>
     <servers />
   </component>
@@ -816,7 +818,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248529000" />
+    <option name="totallyTimeSpent" value="249229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -829,7 +831,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945945" visible="true" weight="0.21695095" />
       <window_info id="Nl-Palette" order="1" />
@@ -1248,13 +1249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="260" column="12" selection-start-line="260" selection-start-column="12" selection-end-line="260" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_13/DeadlockAvoidance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -1309,17 +1303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="1536" lean-forward="true" selection-start-line="1536" selection-end-line="1536" />
-          <folding>
-            <element signature="e#65240#65241#0" expanded="true" />
-            <element signature="e#65287#65288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/time/LocalTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -1339,6 +1322,24 @@
             <element signature="e#27825#27826#0" expanded="true" />
             <element signature="e#27853#27854#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="4585" column="75" lean-forward="true" selection-start-line="4585" selection-start-column="75" selection-end-line="4585" selection-end-column="75" />
+          <folding>
+            <element signature="e#65240#65241#0" expanded="true" />
+            <element signature="e#65287#65288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="355" column="14" selection-start-line="355" selection-start-column="14" selection-end-line="355" selection-end-column="14" />
         </state>
       </provider>
     </entry>
