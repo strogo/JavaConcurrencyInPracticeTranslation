@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,10 +42,10 @@
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="7" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -200,8 +199,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_14/ConditionBoundedBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="567">
+              <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -336,7 +335,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1" />
     <option name="width" value="1678" />
     <option name="height" value="1040" />
@@ -415,6 +414,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -518,7 +518,6 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -789,6 +788,7 @@
       <workItem from="1540385605055" duration="4822000" />
       <workItem from="1540801380422" duration="32341000" />
       <workItem from="1542111008104" duration="599000" />
+      <workItem from="1542174530372" duration="1229000" />
     </task>
     <servers />
   </component>
@@ -825,7 +825,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257114000" />
+    <option name="totallyTimeSpent" value="258343000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,10 +837,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945945" visible="true" weight="0.21908316" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945945" visible="true" weight="0.22121535" />
       <window_info id="Nl-Palette" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1280,8 +1280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_14/ConditionBoundedBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="567">
+          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
         </state>
       </provider>
     </entry>
