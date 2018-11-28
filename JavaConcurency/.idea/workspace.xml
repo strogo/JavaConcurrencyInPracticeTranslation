@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="" />
+    <list default="true" id="c5c38af4-18e0-4fa7-b9d5-c2263752e8a1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java concurrency in practice.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Java concurrency in practice.doc" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -231,8 +233,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
-    <option name="width" value="1678" />
-    <option name="height" value="1040" />
+    <option name="width" value="1595" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -469,7 +471,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543386511362" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543400190580" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/net/jcip/examples/ch_10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -731,7 +733,7 @@
       <workItem from="1540385605055" duration="4822000" />
       <workItem from="1540801380422" duration="32341000" />
       <workItem from="1542111008104" duration="599000" />
-      <workItem from="1542174530372" duration="10529000" />
+      <workItem from="1542174530372" duration="11064000" />
     </task>
     <servers />
   </component>
@@ -768,7 +770,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267643000" />
+    <option name="totallyTimeSpent" value="268178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,10 +782,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1" y="0" width="1595" height="715" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945945" visible="true" weight="0.22121535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945945" visible="true" weight="0.2703583" />
       <window_info id="Nl-Palette" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -816,7 +818,7 @@
       <window_info anchor="right" id="Module Dependencies" order="8" sideWeight="0.49945945" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="9" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Structure" order="11" sideWeight="0.50054055" side_tool="true" visible="true" weight="0.17430703" />
+      <window_info anchor="right" id="Structure" order="11" sideWeight="0.50054055" side_tool="true" visible="true" weight="0.21302931" />
       <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
